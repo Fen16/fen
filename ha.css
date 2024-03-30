@@ -12,7 +12,7 @@
 .backend{
     height: 100vh;
     width: 1440px;
-    background-color: white;
+    background-color: rgb(250, 250, 250);
     margin: 0% 12%;
 }
 
@@ -117,4 +117,24 @@
 }
 .zone1{
     display: flex;
+    margin-left: 300px;
+    
+}
+.zone1 img{
+    
+    height: 122px;
+    width: 200px;
+    border-radius: 10px;
+}
+.view{
+    justify-content: center;
+    display: flex;
+}
+.page5{
+    justify-content: center;
+    background-color: white;
+    padding-top: 90px;
+    padding-left: 300px;
+    padding-bottom: 90px ;
+    white-space: pre;
 }
