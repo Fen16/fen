@@ -77,9 +77,44 @@
     border-radius: 10px;
 }
 .fen4{
+    background-color: white;
+    border-radius: 10px;
+}
+.fen4 img{
     justify-content: center;
     background-color: white;
     height: 210px;
     width: 374px;
+}
+.freephoto{
+    background-color: white;
+    border-radius: 10px;
+}
+.freephoto img{
     
+    justify-content: center;
+    height: 137px;
+    width: 243px;
+}
+.page3{
+    padding: 100px 336px;
+    display: flex;
+    background-color: white;
+}
+.Inp{
+    width: 200%;
+    height: 40%;
+    border-radius: 10px;
+    border: none;
+    background-color: #E5E7EB;
+}
+.butsearch{
+    width: 50%;
+    height: 40%;
+    border-radius: 10px;
+    background-color:rgb(15, 14, 14);
+    margin-top: 6%;
+}
+.zone1{
+    display: flex;
 }
