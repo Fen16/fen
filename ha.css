@@ -3,10 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "Poppins";
+    src: url("/Шрифты/Poppins-Light.ttf") format("opentype")
+}
+@font-face {
+    font-family: "Palat_Roman";
+    src: url("/Шрифты/palatinolinotype_roman.ttf") format("opentype")
+}
+
 .body{
     height: 1000vh;
     background-color: gray;
     
+}
+.my_div{
+    position: relative;
+    position: absolute;
 }
 
 .backend{
@@ -31,11 +44,18 @@
     color: gray;
     text-decoration: none;
     margin: 0px 20px;
+    font-size: 15px;
+}
+.page1 img{
+    margin-left: 15px;
 }
 .page1{
     margin: 68px 320px;
     justify-content: left;
     text-align: left;
+}
+.November{
+    font-size: 11px;
 }
 .logotype2{
     width: auto;
@@ -115,6 +135,11 @@
     background-color:rgb(15, 14, 14);
     margin-top: 6%;
 }
+.page4_name{
+    font-size: 18px;
+    font-family: 'Palat_Roman';
+}
+
 .zone1{
     display: flex;
     margin-left: 300px;
@@ -129,6 +154,8 @@
 .view{
     justify-content: center;
     display: flex;
+    padding: 80px;
+    
 }
 .page5{
     justify-content: center;
