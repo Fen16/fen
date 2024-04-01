@@ -74,12 +74,18 @@
 .image{
     display: flex;
 }
+
 #fen1{
     justify-content: center;
     background-color: white;
     width: 507px; 
     height: 553px;
     border-radius: 10px;
+    transition: transform 1s ease-in-out;
+}
+#fen1:hover{
+    transform: scale(1.2);
+    
 }
 #fen2{
     justify-content: center;
@@ -88,6 +94,11 @@
     height: 258px;
     border-radius: 10px;
     margin-bottom: 16px;
+    transition: transform 1s ease-in-out;
+}
+#fen2:hover{
+    transform: scale(1.2);
+    
 }
 #fen3{
     justify-content: center;
@@ -95,10 +106,21 @@
     width: 245px; 
     height: 279px;
     border-radius: 10px;
+    transition: transform 1s ease-in-out;
+}
+#fen3:hover{
+    transform: scale(1.2);
+    
 }
 .fen4{
     background-color: white;
     border-radius: 10px;
+    height: 350px;
+    transition: transform 1s ease-in-out;
+}
+.fen4:hover{
+    transform: scale(1.2);
+    
 }
 .fen4 img{
     justify-content: center;
@@ -109,6 +131,12 @@
 .freephoto{
     background-color: white;
     border-radius: 10px;
+    height: 280px;
+    transition: transform 1s ease-in-out;
+}
+.freephoto:hover{
+    transform: scale(1.2);
+    
 }
 .freephoto img{
     
@@ -117,32 +145,41 @@
     width: 243px;
 }
 .page3{
-    padding: 100px 336px;
+    padding: 130px 336px;
     display: flex;
     background-color: white;
 }
 .Inp{
     width: 200%;
-    height: 40%;
+    height: 30%;
     border-radius: 10px;
     border: none;
     background-color: #E5E7EB;
 }
 .butsearch{
-    width: 50%;
-    height: 40%;
+    width: 60%;
+    height: 35%;
     border-radius: 10px;
     background-color:rgb(15, 14, 14);
     margin-top: 6%;
+    transition: background-color 1s ease-in-out;
 }
+.butsearch:hover {
+    background-color: rgb(255, 255, 255);
+  }
 .page4_name{
     font-size: 18px;
     font-family: 'Palat_Roman';
+    padding-bottom: 8px;
 }
 
 .zone1{
     display: flex;
     margin-left: 300px;
+    transition: transform 1s ease-in-out;
+}
+.zone1:hover{
+    transform: scale(1.2);
     
 }
 .zone1 img{
@@ -164,4 +201,7 @@
     padding-left: 300px;
     padding-bottom: 90px ;
     white-space: pre;
+}
+.text1{
+    font-size: 14px;
 }
